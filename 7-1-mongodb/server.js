@@ -188,7 +188,7 @@
 import mongoose from "mongoose";
 
 // establish connection
-const url = "mongodb+srv://FahadALzubaidi:<Fahad1234>@cluster0.nls2esi.mongodb.net/testDB"
+const url = "mongodb+srv://FahadALzubaidi:<Fahad1234>@cluster0.nls2esi.mongodb.net/TestDB"
 
 // define schema
 const studentSchema = new mongoose.Schema({
