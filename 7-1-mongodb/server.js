@@ -189,6 +189,9 @@ import mongoose from "mongoose";
 
 // establish connection
 const url = "mongodb+srv://FahadALzubaidi:<Fahad1234>@cluster0.nls2esi.mongodb.net/TestDB"
+mongoose.connect(url)
+   .then(() => console.log("✅ Connected"))
+   .catch(err => console.log("❌ Error:", err));
 
 // define schema
 const studentSchema = new mongoose.Schema({
